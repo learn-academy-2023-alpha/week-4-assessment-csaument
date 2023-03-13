@@ -14,11 +14,11 @@ The earliest computers relied entirely upon functional programming. In essence, 
 
 Much like functional programming, object-oriented programming (OOP) seeks to provide reusable and repeatable behavior. Abstraction takes similar types of data and functions and combines them into classes. Classes define the types of data that they contain and provide access to their data through methods. During execution, objects are initialized as an instance of a class. OOP seeks to provide data security through an idea known as encapsulation. Each object protects its data (or attributes) from direct access, instead providing methods to define specific ways for creating, retrieving, updating, or deleting data. Many languages also implement public and private attributes and methods to further protect data. 
 
-Object-oriented programming (OOP) and functional programming are often viewed as opposing approaches to coding. Opponents of OOP often point to the challenges associated with effectively defining useful and meaningful classes and with teaching OOP.
-
-In practice, meaningful applications frequently integrate both approaches at varying points. While objects can provide useful ways to visualize and solve problems, they complicate others. It's important to consider both approaches and make meaningful decisions in when to create a function vs when to create a class and implement objects.
+Object-oriented programming (OOP) and functional programming are often viewed as opposing approaches to coding. Opponents of OOP often point to the challenges associated with effectively defining useful and meaningful classes and with teaching OOP. In practice, meaningful applications frequently integrate both approaches at varying points. While objects can provide useful ways to visualize and solve problems, they complicate others. It's important to consider both approaches and make meaningful decisions in when to create a function vs when to create a class and implement objects.
 
 Researched answer:
+
+
 
 1. What is the difference between a Float and an Integer in Ruby?
 
@@ -57,12 +57,12 @@ Researched answer:
 
 ## Looking Ahead: Terms for Next Week
 
-1. Class Inheritance:
+1. Class Inheritance: Class inheritence provdes the ability for subclasses to inherit data and functions from their superclass or template. In addition to inheriting these data, Ruby allows subclasses to override inherited functions with new statements.
 
-2. RSpec:
+2. RSpec: RSpec provides an environment for conducting test-driven development within a Ruby framework. RSPec includes several libraries, and I expect the rspec-mock (providing mock datasets for robust testing) and rspec-rails (providing an alternative to the vanilla Rails testing environment) will be used in this course.
 
-3. CRUD:
+3. CRUD: Create, read, update, delete. The four basic functions for managing data within a persistent architecture. They provide the building blocks for operations at clients, servers, routers, and other elements of computational systems. In HTTP, GET, PUT, POST, and DELETe provide CRUD functionality. Comparable functions in SQL are INSERT, SELECT, UPDATE, and DELETE.
 
-4. Test-driven development:
+4. Test-driven development: Test-driven development is a process of developing applications or features by beginning with the development of a test to confirm that behavior matches expectations. This approach can improve the quality of development by enfocing clear expectations for outcomes based upon given inputs. It also provides a safe environment for refactoring to improve the speed and efficiency of the application or feature.
 
-5. HTTP:
+5. HTTP: Hypertext Transfer Protocol (HTTP) provides application-layer instructions for the transmission of data packets within a network.
